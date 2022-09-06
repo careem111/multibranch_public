@@ -14,7 +14,7 @@ pipeline{
         stage('copy war file and dockerfile'){
             steps{
                 sh "cp /var/lib/jenkins/workspace/valaxy-app-mbranch/webapp/target/*.war /home/jenkins"
-                sh "cp Dockerfile jenkins@${params.ansible_server}:/home/jenkins"
+                sh "cp Dockerfile /home/jenkins"
                  }	
            }
 
