@@ -31,7 +31,7 @@
     <p>Already have an account? <a href="#">Sign in</a>.</p>
   </div>
 
-   <h1> Feature branch 1st commit </h1>
+   <h1> Main branch </h1>
 
   
 </form>
